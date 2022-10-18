@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@1,700&family=Roboto:wght@100;300;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+.menu .logo{
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 70px;
+	font-weight: 900;
+	margin-left: 20px;
+}
+.menu ul{
+	float: right;
+	margin-right: 10px;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 30px 15px;
+}
+.menu ul li a{
+	font-size: 1em;
+	padding: 8px 6px;
+	text-decoration: none;
+	color: #fff;
+}
+.menu ul li a:hover{
+	color: #1dd;
+}
+.menu{
+	background-color: #000;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	position: relative;
+	height: 100vh;
+	background: url(../img/banner.jpg)
+	 no-repeat center center/cover;
+	 left: 0;
+	 top: 0;
+	 z-index: 1;
+}
+.banner .texto-banner{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	min-width: 40%;
+	min-height: 20%;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.banner .texto-banner p,
+.banner .texto-banner h1{
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+.banner .texto-banner h1{
+	font-size: 28px;
+}
+/*quienesomos*/
+.Nosotros{
+	padding: 10px 100px;
+	text-align: center;
+	margin: 40px 0px;
+}
+.titulo{
+	font-family: 'Amaranth', sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	font-size: 33px;
+	text-align: center;
+}
+.linea{
+	width: 200px;
+	height: 6px;
+	background-color: #00857a;
+	margin: 10px auto;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.boton{
+	background-color: #00857a;
+	display: block;
+	width: 200px;
+	height: 40px;
+	margin: 40px auto;
+	border-radius: 10px;
+	text-decoration: none;
+	line-height: 15px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.boton:hover{
+		background-color: #00453f;
+		box-shadow: 5px 5px 5px gray;
+
+}
+/*servivios*/
+.servicios{
+	margin: 50px 70px;
+}
+.servicios .contenido{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+}
+.imagen img{
+	width: 90%;
+	height: 250px;
+	border-radius: 20px;
+	margin: 0 auto;
+	display: block;
+}
+.imagen p{
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.imagen .boton2{
+	background-color: #00857a;
+	width: 100px;
+	padding: 5px;
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+.boton2:hover{
+		background-color: #00453f;
+		box-shadow: 5px 5px 5px gray;
+
+}
+.redes{
+	background-color: #000;
+	color: #fff;
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+}
+.redes i{
+	margin: 12px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
